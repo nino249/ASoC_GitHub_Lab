@@ -50,5 +50,5 @@ jobs:
         with:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
-          application_id: e35ea96d-cae0-499a-a3ed-7a4efd77b269
+          application_id: ${{secrets.ASOC_APPID}}
 ```
