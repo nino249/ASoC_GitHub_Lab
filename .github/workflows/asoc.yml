@@ -13,7 +13,7 @@ jobs:
         with:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
-          application_id: 286c0790-c13c-4e3f-8932-1df8453670d1
+          application_id: ${{env.ASOC_APP}}
           #wait_for_analysis: true
           #fail_for_noncompliance: true
 
