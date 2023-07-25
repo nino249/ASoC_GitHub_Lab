@@ -11,7 +11,7 @@
 	
 	if($_SERVER['REQUEST_METHOD']!="POST"){
 		die("This page only accepts POST requests");
-	}
+	}  
 		
 	$request=new AjaxRequestHandler();
 	$page=$request->GetParameter("target_page");
