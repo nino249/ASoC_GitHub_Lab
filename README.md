@@ -50,5 +50,5 @@ jobs:
         with:
           asoc_key: ${{secrets.ASOC_KEY}}
           asoc_secret: ${{secrets.ASOC_SECRET}}
-          application_id: ${{secrets.ASOC_APPID}}
+          application_id: ${{vars.ASOC_APPID}}
 ```
